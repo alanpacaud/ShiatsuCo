@@ -33,7 +33,6 @@ nav {
 }
 
 
-
 .nav-link {
     text-decoration: none;
     font-family: 'Bree Serif', serif;
@@ -42,19 +41,18 @@ nav {
 
 .nav-link:hover {
     font-size: larger;
-    color: #FFE6E6!important;
+    color: #FFE6E6 !important;
 }
 
-/*.navbar-toggler-icon{*/
-/*    background-color: #6A758A;*/
-/*}*/
+/*SUB NAVBAR*/
 
 
 
-
-
-
-
+/*ACCUEIL / INDEX*/
+h1.index {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
 
 
 
