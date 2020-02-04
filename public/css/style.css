@@ -1,0 +1,63 @@
+/*GLOBAL*/
+
+body {
+    background-color: #6A758A;
+}
+
+/*NAVIGATION*/
+
+nav {
+    background-color: #20232A;
+    color: #EBEBEB;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+#paintDragonfly {
+    width: 2rem;
+    border-radius: 50%;
+}
+
+#brandTitle {
+    color: #F2DADB !important;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    font-family: 'Lobster', cursive;
+
+}
+
+#brandTitle:hover {
+    color: #FFE5E6 !important;
+    font-size: 1.8rem;
+}
+
+
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+    color: #BFBFBF;
+}
+
+.nav-link:hover {
+    font-size: larger;
+    color: #FFE6E6!important;
+}
+
+/*.navbar-toggler-icon{*/
+/*    background-color: #6A758A;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+

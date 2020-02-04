@@ -1,0 +1,8 @@
+<nav>
+    {% if app.user %}
+        <br><button type="button" class="btn btn-danger"><a href="{{ path('logout') }}">Déconnexion</a></button>
+    {% else %}
+        <br><button type="button" class="btn btn-primary"><a href="{{ path('login') }}">Connexion</a></button>
+    {% endif %}
+
+</nav>
