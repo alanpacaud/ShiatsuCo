@@ -4,6 +4,10 @@ body {
     background-color: #6A758A;
 }
 
+#spacing-div{
+    padding-top: 1rem;
+}
+
 /*NAVIGATION*/
 
 nav {
@@ -53,7 +57,16 @@ h1.index {
     font-family: 'Lobster', cursive;
     text-align: center;
 }
+h2.index{
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+}
 
+/*CAROUSEL*/
+.carousel-inner img {
+    width: 50%;
+    height: 50%;
+}
 
 
 
