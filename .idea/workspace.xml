@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aed6718-6ed4-4936-87ac-0301a8c352ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/logolibellulefinal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/picsToShare/PhotoShootHand1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/picsToShare/affichePontCaff.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/picsToShare/aquaforme.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/picsToShare/chaiseMassage.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/picsToShare/massageChaise1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/picsToShare/massageChaise2jpg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/picsToShare/photoShootHead1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/picsToShare/stageShiatsuSEIVA.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/account/login.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/AccountController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/AccountController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/register.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,11 +129,12 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/img/photoToShare" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\ShiatsuCo\public\img\photoToShare" />
       <recent name="C:\wamp64\www\ShiatsuCo\public\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -159,7 +168,7 @@
       <workItem from="1580718275983" duration="3985000" />
       <workItem from="1580803980093" duration="22088000" />
       <workItem from="1580889967501" duration="11617000" />
-      <workItem from="1580928502566" duration="1770000" />
+      <workItem from="1580928502566" duration="3858000" />
     </task>
     <servers />
   </component>

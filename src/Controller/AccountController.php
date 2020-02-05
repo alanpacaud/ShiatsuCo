@@ -46,7 +46,7 @@ class AccountController extends Controller
 
 
 
-        return $this->render('account/index.html.twig', [
+        return $this->render('account/register.html.twig', [
             'accountFormView' => $accountForm->createView()
         ]);
     }
@@ -64,7 +64,7 @@ class AccountController extends Controller
         // last username entered by the user
         $lastUsername = $authenticationUtils->getLastUsername();
 
-        return $this->render('main/login.html.twig', [
+        return $this->render('account/login.html.twig', [
             'last_username' => $lastUsername,
             'error'         => $error,
         ]);
