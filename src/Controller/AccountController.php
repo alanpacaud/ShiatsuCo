@@ -37,7 +37,7 @@ class AccountController extends Controller
             $accountForm->get('plainPassword')->getData()));
 
         $entityManager = $this->getDoctrine()->getManager();
-        $entityManager->persist();
+        $entityManager->persist($account);
         $entityManager->flush();
 
         return $this->redirectToRoute("main");
