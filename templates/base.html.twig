@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}Shiatsu&Co{% endblock %}</title>
-    {% block stylesheets %}{% endblock %}
+
 
     {#    JQuery#}
     <script
@@ -30,7 +30,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    {% block stylesheets %}<link rel="stylesheet" href="{{ asset('css/style.css') }}">{% endblock %}
 
     <link rel="icon" href="{{ asset('img/logolibellulefinal.png') }}"/>
 </head>
@@ -39,7 +39,7 @@
 <body>
 <nav class="navbar navbar-dark navbar-expand-sm">
     <a id="brandTitle" class="navbar-brand" href="{{ path('main') }}"> Shiatsu & Co <img id="paintDragonfly"
-                                                                        src="{{ asset('img/photoShoot/IMG_0798rogne.jpg') }}"></a>
+                                                                                         src="{{ asset('img/photoShoot/IMG_0798rogne.jpg') }}"></a>
 
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -69,7 +69,6 @@
         </ul>
     </div>
 </nav>
-
 
 
 {% block body %}{% endblock %}

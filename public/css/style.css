@@ -76,7 +76,19 @@ h2.index{
     border-radius: 2rem;
     /*height: 75%;*/
 }
+.carousel-caption{
+    font-weight: bold;
+    color: #FFE5E6;
+    border-radius: 2rem;
+    opacity: 0.9;
+    background: rgba(158,158,158,0.3);
+}
 
+.carousel-link{
+    opacity: 0.9;
+    font-size: 120%;
+    color: #03F19C;
+}
 
 
 
