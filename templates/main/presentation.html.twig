@@ -1,35 +1,61 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Shiatsu & Co - Login{% endblock %}
-{% block stylesheets %}<link rel="stylesheet" href="{{ asset('css/style.css') }}">{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/style-presentation.css') }}">{% endblock %}
 
 {% block body %}
 
-    <h1>Marie Poidevin - Praticienne</h1>
-    <h2>Qui sui-je?</h2>
-    <img src="{{ asset('img/picsToShare/photoShootHead1.png') }}" alt="Qui suis-je?">
+    <h1 class="lobster-align">Marie Poidevin - Praticienne</h1>
+    <h2 class="lobster-align">Qui suis-je?</h2>
 
-    <p>Ancienne sportive de haut niveau en roller de vitesse, le dépassement de soi est une notion que j’ai rendue
-        concrète pendant des années.
+    <div class="d-flex justify-content-center mb-3">
+        <img id="photo1" src="{{ asset('img/picsToShare/photoShootHead1.png') }}" alt="Qui suis-je?">
+    </div>
 
-        Pendant longtemps la compétition m’a apporté de la confiance, par des défis. A la fin de cette expérience, j’ai
-        réalisé à quel point j’avais aussi soumis mon corps au stress et aux blessures. Je souhaitais retrouver
-        l’équilibre de ma santé.
 
-        Aux croisements de recherches et de rencontres, j’ai choisi de suivre l’enseignement du Shiatsu. C’est une
-        technique douce visant à soulager des problématiques physiques, mentales et émotionnelles. Ce soin corporel
-        Japonais signifie « pression des pousses », il est basé sur l’énergétique Chinoise.
+        <p class="text-center">Ancienne sportive de haut niveau en roller de vitesse, le dépassement de soi est une notion que j’ai rendue
+            concrète pendant des années.</p>
 
-        L’énergétique Chinoise est une vision de la nature selon laquelle le corps évolue grâce à des mouvements
-        énergétiques, insufflés par le Qi (énergie vitale), influençant nos fonctions organiques, nos émotions et nos
-        comportements.
 
-        C’est à la fois une philosophie de vie, qui invite chacun à respecter son corps, son esprit, ses envies et ses
-        limites. En évoluant ainsi, j’apprends à écouter mes besoins, parfois éloignés des attentes de la société, du
-        jugement d’autrui. En y étant attentive, j’ai compris qu’un mode de vie plus respectueux de la nature était
-        sain, même logique.
 
-        Pas à pas, plus les gens prendront réellement soin d’eux, mieux la planète s’en portera. C’est aussi une raison
-        qui m’amène à vous accompagner dans cette démarche de bien-être.</p>
+        <p class="text-center">Pendant longtemps la compétition m’a apporté de la confiance, par des défis. A la fin de cette expérience,
+            j’ai
+            réalisé à quel point j’avais aussi soumis mon corps au stress et aux blessures. Je souhaitais retrouver
+            l’équilibre de ma santé.</p>
+
+
+        <p class="text-center">Aux croisements de recherches et de rencontres, j’ai choisi de suivre l’enseignement du Shiatsu. C’est
+            une
+            technique douce visant à soulager des problématiques physiques, mentales et émotionnelles. Ce soin
+            corporel
+            Japonais signifie « pression des pousses », il est basé sur l’énergétique Chinoise.</p>
+
+
+
+        <p class="text-center">L’énergétique Chinoise est une vision de la nature selon laquelle le corps évolue grâce à des mouvements
+            énergétiques, insufflés par le Qi (énergie vitale), influençant nos fonctions organiques, nos émotions
+            et
+            nos
+            comportements.</p>
+
+
+
+        <p class="text-center">C’est à la fois une philosophie de vie, qui invite chacun à respecter son corps, son esprit, ses envies
+            et
+            ses
+            limites. En évoluant ainsi, j’apprends à écouter mes besoins, parfois éloignés des attentes de la
+            société,
+            du
+            jugement d’autrui. En y étant attentive, j’ai compris qu’un mode de vie plus respectueux de la nature
+            était
+            sain, même logique.</p>
+
+
+
+        <p class="text-center">Pas à pas, plus les gens prendront réellement soin d’eux, mieux la planète s’en portera. C’est aussi une
+            raison
+            qui m’amène à vous accompagner dans cette démarche de bien-être.</p>
+
 
 {% endblock %}
