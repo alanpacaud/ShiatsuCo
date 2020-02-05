@@ -1,0 +1,70 @@
+/*GLOBAL*/
+
+body {
+    background-color: #DCF2EC;
+    /*background-color: #FCE0D2;*/
+    /*background-color: #6A758A;*/
+    font-family: 'Bree Serif', serif;
+}
+
+#spacing-div {
+    padding-top: 1rem;
+}
+
+/*NAVIGATION*/
+
+nav {
+    background-color: #F5FFF9;
+    /*background-color: #20232A;*/
+    color: #DCF2EC;
+    /*color: #EBEBEB;*/
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+#paintDragonfly {
+    width: 2rem;
+    border-radius: 50%;
+}
+
+#brandTitle {
+    color: #803737 !important;
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 4rem;
+    font-family: 'Lobster', cursive;
+
+}
+
+#brandTitle:hover {
+    color: #FFE5E6 !important;
+    font-size: 1.8rem;
+}
+
+
+.nav-link {
+    text-decoration: none;
+    font-family: 'Bree Serif', serif;
+    /*color: #BFBFBF;*/
+    color: #803737 !important;
+}
+
+.nav-link:hover {
+    font-size: larger;
+    color: #FFE6E6 !important;
+}
+
+
+
+/*SUB NAVBAR*/
+
+.lobster-align{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.section-space{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
+}
