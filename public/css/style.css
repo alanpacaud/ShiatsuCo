@@ -4,6 +4,7 @@ body {
     background-color: #DCF2EC;
     /*background-color: #FCE0D2;*/
     /*background-color: #6A758A;*/
+    font-family: 'Bree Serif', serif;
 }
 
 #spacing-div{
@@ -70,6 +71,7 @@ h2.index{
 /*CAROUSEL*/
 #actu-carousel{
     width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .carousel-inner img {
     width: 100%;

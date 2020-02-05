@@ -1,51 +1,102 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Shiatsu & Co - Sign Up{% endblock %}
-{% block stylesheets %}<link rel="stylesheet" href="{{ asset('css/style.css') }}">{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/style-register.css') }}">{% endblock %}
+
+
 
 {% block body %}
-<h1>Une envie de rester en contact? Créez votre compte ici!</h1>
+    <div id="spacing-div"></div>
+    <h1 class="register">Une envie de rester en contact? Créez votre compte ici!</h1>
+    <div id="spacing-div"></div>
+    <div id="spacing-div"></div>
+    <div class="d-flex justify-content-center mb-3">
+        {{ form_start(accountFormView) }}
 
-    {{ form_start(accountFormView) }}
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    {{ form_label(accountFormView.username) }}
+                    <div class="col">
+                    {{ form_widget(accountFormView.username) }}
+                    </div>
+                    {{ form_errors(accountFormView.username) }}
+                </div>
+            </div>
+            <br>
 
+            <div class="row">
+                <div class="col">
+                    {{ form_label(accountFormView.firstname) }}
+                    <div class="col">
+                    {{ form_widget(accountFormView.firstname) }}
+                    </div>
+                    {{ form_errors(accountFormView.firstname) }}
+                </div>
+            </div>
+            <br>
 
+            <div class="row">
+                <div class="col">
+                    {{ form_label(accountFormView.lastname) }}
+                    <div class="col">
+                    {{ form_widget(accountFormView.lastname) }}
+                    </div>
+                    {{ form_errors(accountFormView.lastname) }}
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    {{ form_label(accountFormView.email) }}
+                    <div class="col">
+                    {{ form_widget(accountFormView.email) }}
+                    </div>
+                    {{ form_errors(accountFormView.email) }}
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    {{ form_label(accountFormView.adress) }}
+                    <div class="col">
+                    {{ form_widget(accountFormView.adress) }}
+                    </div>
+                    {{ form_errors(accountFormView.adress) }}
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    {{ form_label(accountFormView.plainPassword) }}
+                    <div class="col">
+                    {{ form_widget(accountFormView.plainPassword) }}
+                    </div>
+                    {{ form_errors(accountFormView.plainPassword) }}
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                    {{ form_label(accountFormView.agreeTerms) }}
 
-    {{ form_label(accountFormView.username) }}
-    {{ form_widget(accountFormView.username) }}
-    {{ form_errors(accountFormView.username) }}
-    <br>
+                    {{ form_widget(accountFormView.agreeTerms) }}
 
+                    {{ form_errors(accountFormView.agreeTerms) }}
+                </div>
+            </div>
+            <br>
 
-    {{ form_label(accountFormView.firstname) }}
-    {{ form_widget(accountFormView.firstname) }}
-    {{ form_errors(accountFormView.firstname) }}
-    <br>
+            <div id="spacing-div"></div>
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-primary">S'enregistrer</button>
+                </div>
+            </div>
+            <div id="spacing-div"></div>
+        </div>
+        {{ form_end(accountFormView) }}
 
-
-    {{ form_label(accountFormView.lastname) }}
-    {{ form_widget(accountFormView.lastname) }}
-    {{ form_errors(accountFormView.lastname) }}
-    <br>
-
-    {{ form_label(accountFormView.email) }}
-    {{ form_widget(accountFormView.email) }}
-    {{ form_errors(accountFormView.email) }}
-    <br>
-
-    {{ form_label(accountFormView.adress) }}
-    {{ form_widget(accountFormView.adress) }}
-    {{ form_errors(accountFormView.adress) }}
-    <br>
-
-    {{ form_label(accountFormView.plainPassword) }}
-    {{ form_widget(accountFormView.plainPassword) }}
-    {{ form_errors(accountFormView.plainPassword) }}
-    <br>
-
-    {{ form_label(accountFormView.agreeTerms) }}
-    {{ form_widget(accountFormView.agreeTerms) }}
-    {{ form_errors(accountFormView.agreeTerms) }}
-    <br>
-    <button class="btn btn-primary">S'enregistrer</button>
-    {{ form_end(accountFormView) }}
+    </div>
 {% endblock %}
