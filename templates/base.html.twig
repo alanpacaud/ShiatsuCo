@@ -37,7 +37,7 @@
 
 
 <body>
-<nav class="navbar navbar-dark navbar-expand-sm bg-dark">
+<nav class="navbar navbar-dark navbar-expand-sm">
     <a id="brandTitle" class="navbar-brand" href="#"> Shiatsu & Co <img id="paintDragonfly"
                                                                         src="{{ asset('img/photoShoot/IMG_0798rogne.jpg') }}"></a>
 
@@ -64,7 +64,7 @@
             <li class="nav-item"><a class="nav-link" href="#">Soins & Prestations</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Présentation</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Connexion</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">S'enregistrer</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ path('account_signup') }}">S'enregistrer</a></li>
             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
         </ul>
     </div>

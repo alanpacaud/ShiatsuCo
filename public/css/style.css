@@ -1,7 +1,9 @@
 /*GLOBAL*/
 
 body {
-    background-color: #6A758A;
+    background-color: #DCF2EC;
+    /*background-color: #FCE0D2;*/
+    /*background-color: #6A758A;*/
 }
 
 #spacing-div{
@@ -11,8 +13,10 @@ body {
 /*NAVIGATION*/
 
 nav {
-    background-color: #20232A;
-    color: #EBEBEB;
+    background-color: #F5FFF9;
+    /*background-color: #20232A;*/
+    color: #DCF2EC;
+    /*color: #EBEBEB;*/
     padding-bottom: 0.5rem;
     padding-left: 0.5rem;
 }
@@ -23,7 +27,7 @@ nav {
 }
 
 #brandTitle {
-    color: #F2DADB !important;
+    color: #803737 !important;
     font-size: 1.5rem;
     margin-left: 2rem;
     margin-right: 4rem;
@@ -40,7 +44,8 @@ nav {
 .nav-link {
     text-decoration: none;
     font-family: 'Bree Serif', serif;
-    color: #BFBFBF;
+    /*color: #BFBFBF;*/
+    color: #803737!important;
 }
 
 .nav-link:hover {
@@ -63,9 +68,13 @@ h2.index{
 }
 
 /*CAROUSEL*/
-.carousel-inner img {
+#actu-carousel{
     width: 50%;
-    height: 50%;
+}
+.carousel-inner img {
+    width: 100%;
+    border-radius: 2rem;
+    /*height: 75%;*/
 }
 
 

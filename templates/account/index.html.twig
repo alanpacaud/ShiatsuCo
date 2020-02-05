@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Shiatsu & Co - Sign Up{% endblock %}
+
+{% block body %}
+<h1>Une envie de rester en contact? Créez votre compte ici!</h1>
+
+    {{ form_start(accountFormView) }}
+
+
+
+    {{ form_label(accountFormView.username) }}
+    {{ form_widget(accountFormView.username) }}
+    {{ form_errors(accountFormView.username) }}
+    <br>
+
+
+    {{ form_label(accountFormView.firstname) }}
+    {{ form_widget(accountFormView.firstname) }}
+    {{ form_errors(accountFormView.firstname) }}
+    <br>
+
+
+    {{ form_label(accountFormView.lastname) }}
+    {{ form_widget(accountFormView.lastname) }}
+    {{ form_errors(accountFormView.lastname) }}
+    <br>
+
+    {{ form_label(accountFormView.email) }}
+    {{ form_widget(accountFormView.email) }}
+    {{ form_errors(accountFormView.email) }}
+    <br>
+
+    {{ form_label(accountFormView.adress) }}
+    {{ form_widget(accountFormView.adress) }}
+    {{ form_errors(accountFormView.adress) }}
+    <br>
+
+    {{ form_label(accountFormView.plainPassword) }}
+    {{ form_widget(accountFormView.plainPassword) }}
+    {{ form_errors(accountFormView.plainPassword) }}
+    <br>
+
+    {{ form_label(accountFormView.agreeTerms) }}
+    {{ form_widget(accountFormView.agreeTerms) }}
+    {{ form_errors(accountFormView.agreeTerms) }}
+    <br>
+    <button class="btn btn-primary">S'enregistrer</button>
+    {{ form_end(accountFormView) }}
+{% endblock %}
