@@ -58,6 +58,17 @@ nav {
 
 /*SUB NAVBAR*/
 
+.lobster-align{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+.section-space{
+    margin-left: 4rem;
+    margin-right: 4rem;
+    text-align: center;
+}
+
 
 /*ACCUEIL / INDEX*/
 h1.index {
