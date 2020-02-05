@@ -7,7 +7,7 @@ body {
     font-family: 'Bree Serif', serif;
 }
 
-#spacing-div{
+#spacing-div {
     padding-top: 1rem;
 }
 
@@ -46,7 +46,7 @@ nav {
     text-decoration: none;
     font-family: 'Bree Serif', serif;
     /*color: #BFBFBF;*/
-    color: #803737!important;
+    color: #803737 !important;
 }
 
 .nav-link:hover {
@@ -54,8 +54,13 @@ nav {
     color: #FFE6E6 !important;
 }
 
-/*SUB NAVBAR*/
+/*HAMBERGER*/
+/*.navbar-toggler-icon {*/
+/*    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rbg(255,102,203)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");*/
 
+/*}*/
+
+/*SUB NAVBAR*/
 
 
 /*ACCUEIL / INDEX*/
@@ -63,30 +68,33 @@ h1.index {
     font-family: 'Lobster', cursive;
     text-align: center;
 }
-h2.index{
+
+h2.index {
     font-family: 'Bree Serif', serif;
     text-align: center;
 }
 
 /*CAROUSEL*/
-#actu-carousel{
+#actu-carousel {
     width: 50%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 .carousel-inner img {
     width: 100%;
     border-radius: 2rem;
     /*height: 75%;*/
 }
-.carousel-caption{
+
+.carousel-caption {
     font-weight: bold;
     color: #FFE5E6;
     border-radius: 2rem;
     opacity: 0.9;
-    background: rgba(158,158,158,0.3);
+    background: rgba(158, 158, 158, 0.3);
 }
 
-.carousel-link{
+.carousel-link {
     opacity: 0.9;
     font-size: 120%;
     color: #03F19C;

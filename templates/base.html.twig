@@ -32,18 +32,23 @@
 
     {% block stylesheets %}<link rel="stylesheet" href="{{ asset('css/style.css') }}">{% endblock %}
 
+{#    fontawsome link#}
+    <script src="https://kit.fontawesome.com/a920a4a76c.js" crossorigin="anonymous"></script>
+
     <link rel="icon" href="{{ asset('img/logolibellulefinal.png') }}"/>
 </head>
 
 
 <body>
-<nav class="navbar navbar-dark navbar-expand-sm ">
+<nav class="navbar navbar-dark navbar-expand-sm">
     <a id="brandTitle" class="navbar-brand" href="{{ path('main') }}"> Shiatsu & Co <img id="paintDragonfly"
                                                                                          src="{{ asset('img/photoShoot/IMG_0798rogne.jpg') }}"></a>
 
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">
+    <i style="color: #803737" class="fas fa-bars"></i>
+</span>
     </button>
 
     <div class="collapse navbar-collapse " id="collapsibleNavbar">
