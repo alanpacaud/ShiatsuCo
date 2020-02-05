@@ -36,4 +36,14 @@ class MainController extends Controller
             'controller_name' => 'MainController',
         ]);
     }
+
+    /**
+     * @Route("/soins", name="soins")
+     */
+    public function soins()
+    {
+        return $this->render('main/soins.html.twig', [
+            'controller_name' => 'MainController',
+        ]);
+    }
 }
