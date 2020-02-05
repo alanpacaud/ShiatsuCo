@@ -16,4 +16,24 @@ class MainController extends Controller
             'controller_name' => 'MainController',
         ]);
     }
+
+    /**
+     * @Route("/contact", name="contact")
+     */
+    public function contact()
+    {
+        return $this->render('main/contact.html.twig', [
+            'controller_name' => 'MainController',
+        ]);
+    }
+
+    /**
+     * @Route("/presentation", name="presentation")
+     */
+    public function presentation()
+    {
+        return $this->render('main/presentation.html.twig', [
+            'controller_name' => 'MainController',
+        ]);
+    }
 }
