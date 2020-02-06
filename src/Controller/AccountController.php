@@ -41,7 +41,7 @@ class AccountController extends Controller
         $entityManager->persist($account);
         $entityManager->flush();
 
-        return $this->redirectToRoute("main");
+        return $this->redirectToRoute("account_login");
 
         }
 

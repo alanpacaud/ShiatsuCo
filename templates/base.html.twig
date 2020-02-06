@@ -71,6 +71,8 @@
             <li class="nav-item"><a class="nav-link" href="{{ path('presentation') }}">Présentation</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ path('contact') }}">Contact</a></li>
             {% if app.user %}
+                <li class="nav-item"><a class="nav-link" href="{{ path('soins') }}">Mon Profil</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ path('soins') }}">Le coin des membres</a></li>
             <li id="logout-shape" class="nav-item"><a class="nav-link" href="{{ path('logout') }}">Déconnexion</a></li>
             {% else %}
             <li class="nav-item"><a class="nav-link" href="{{ path('account_login') }}">Connexion</a></li>
