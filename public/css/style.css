@@ -109,13 +109,12 @@ h2.index {
     color: #03F19C;
 }
 
-/*@media only screen and (max-width: 600px) {*/
-/*    .carousel-caption {*/
-/*        width: min-content;*/
-/*        font-size: 50%;*/
+@media only screen and (max-width: 600px) {
+    .carousel-caption {
+        display: none;
 
-/*    }*/
-/*}*/
+    }
+}
 
 
 
