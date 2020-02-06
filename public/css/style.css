@@ -55,15 +55,14 @@ nav {
 }
 
 
-
 /*SUB NAVBAR*/
 
-.lobster-align{
+.lobster-align {
     font-family: 'Lobster', cursive;
     text-align: center;
 }
 
-.section-space{
+.section-space {
     margin-left: 4rem;
     margin-right: 4rem;
     text-align: center;
@@ -82,20 +81,19 @@ h2.index {
 }
 
 
-
 /*CAROUSEL*/
 #actu-carousel {
     width: 50%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 .carousel-inner img {
-    width: 100%;
+
     border-radius: 2rem;
-    /*height: 75%;*/
 }
 
-.carousel-caption {
+.captionRework {
     font-weight: bold;
     color: #FFE5E6;
     border-radius: 2rem;
@@ -103,11 +101,20 @@ h2.index {
     background: rgba(158, 158, 158, 0.3);
 }
 
-.carousel-link {
+.carousel-linkRework{
     opacity: 0.9;
     font-size: 120%;
     color: #03F19C;
 }
+
+/*@media only screen and (max-width: 600px) {*/
+/*    .carousel-caption {*/
+/*        width: min-content;*/
+/*        font-size: 50%;*/
+
+/*    }*/
+/*}*/
+
 
 
 
