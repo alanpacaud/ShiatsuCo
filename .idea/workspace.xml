@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aed6718-6ed4-4936-87ac-0301a8c352ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/main/temporaryPage.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +158,8 @@
       <workItem from="1580718275983" duration="3985000" />
       <workItem from="1580803980093" duration="22088000" />
       <workItem from="1580889967501" duration="11950000" />
+      <workItem from="1581011627052" duration="505000" />
+      <workItem from="1581012148742" duration="604000" />
     </task>
     <servers />
   </component>
@@ -182,6 +181,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="#Composer/0.0.1920.1040@0.0.1920.1040" timestamp="1580985231369" />
+    <state x="320" y="221" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581012133671">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="320" y="221" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.984@0.0.1280.984" timestamp="1581012133671" />
     <state x="690" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580901770823">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -195,9 +198,10 @@
     </state>
     <state x="282" y="154" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1580928596795" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580826467451" />
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580889969814">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="437" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1581012310594">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
+    <state x="437" y="326" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1581012310594" />
     <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580889969814" />
     <state x="657" y="118" width="606" height="804" key="find.popup" timestamp="1581001880511">
       <screen x="0" y="0" width="1920" height="1040" />
