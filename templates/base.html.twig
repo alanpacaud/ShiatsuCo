@@ -69,10 +69,14 @@
 
             <li class="nav-item"><a class="nav-link" href="{{ path('soins') }}">Soins & Prestations</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ path('presentation') }}">Présentation</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ path('logout') }}">Déconnexion</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ path('contact') }}">Contact</a></li>
+            {% if app.user %}
+            <li id="logout-shape" class="nav-item"><a class="nav-link" href="{{ path('logout') }}">Déconnexion</a></li>
+            {% else %}
             <li class="nav-item"><a class="nav-link" href="{{ path('account_login') }}">Connexion</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ path('account_signup') }}">S'enregistrer</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ path('contact') }}">Contact</a></li>
+            {% endif %}
+
         </ul>
     </div>
 </nav>
