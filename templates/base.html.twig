@@ -30,7 +30,9 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
 
+{#    STYLESHEETS#}
     {% block stylesheets %}<link rel="stylesheet" href="{{ asset('css/style.css') }}">{% endblock %}
+    <link rel="stylesheet" href="{{ asset('css/style-logout-nav.css') }}">
 
 {#    fontawsome link#}
     <script src="https://kit.fontawesome.com/a920a4a76c.js" crossorigin="anonymous"></script>
@@ -42,6 +44,9 @@
 <body>
 
 <nav class="navbar navbar-dark navbar-expand-sm">
+
+
+
     <a id="brandTitle" class="navbar-brand" href="{{ path('main') }}"> Shiatsu & Co <img id="paintDragonfly"
                                                                                          src="{{ asset('img/photoShoot/IMG_0798rogne.jpg') }}"></a>
 
@@ -70,13 +75,19 @@
             <li class="nav-item"><a class="nav-link" href="{{ path('soins') }}">Soins & Prestations</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ path('presentation') }}">Présentation</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ path('contact') }}">Contact</a></li>
+
+
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+
             {% if app.user %}
                 <li class="nav-item"><a class="nav-link" href="{{ path('soins') }}">Mon Profil</a></li>
                 <li class="nav-item"><a class="nav-link" href="{{ path('soins') }}">Le coin des membres</a></li>
-            <li id="logout-shape" class="nav-item"><a class="nav-link" href="{{ path('logout') }}">Déconnexion</a></li>
+                <li id="logout-shape" class="nav-item"><a class="nav-link" href="{{ path('logout') }}">Déconnexion</a></li>
             {% else %}
-            <li class="nav-item"><a class="nav-link" href="{{ path('account_login') }}">Connexion</a></li>
-            <li class="nav-item"><a class="nav-link" href="{{ path('account_signup') }}">S'enregistrer</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ path('account_login') }}">Connexion</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ path('account_signup') }}">S'enregistrer</a></li>
             {% endif %}
 
         </ul>
