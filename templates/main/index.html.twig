@@ -1,6 +1,8 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Shiatsu & Co - Home{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">{% endblock %}
 
 {% block body %}
     <div id="spacing-div"></div>
@@ -9,53 +11,80 @@
     <div id="spacing-div"></div>
 
     <section>
-    <div>
-        <h2 class="index">Mes dernières actualités</h2>
+        <div>
+            <h2 class="index">Mes dernières actualités</h2>
 
-{#CAROUSEL#}
-        <div class="d-flex justify-content-center mb-3">
+            {#CAROUSEL#}
+            <div class="d-flex justify-content-center mb-3">
 
-        <div id="actu-carousel" class="carousel slide " data-ride="carousel" data-interval="false">
+                <div id="actu-carousel" class="carousel slide " data-ride="carousel">
+                    {#                    data-interval="false" : put it in the div upside to prevent the carousel to move on his own#}
 
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-                <li data-target="#actu-carousel" data-slide-to="0" class="active"></li>
-                <li data-target="#actu-carousel" data-slide-to="1"></li>
-                <li data-target="#actu-carousel" data-slide-to="2"></li>
-            </ul>
+                    <ul class="carousel-indicators">
+                        <li data-target="#actu-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#actu-carousel" data-slide-to="1"></li>
+                        <li data-target="#actu-carousel" data-slide-to="2"></li>
+                    </ul>
 
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{ asset('img/photoShoot/IMG_0817.jpg') }}" alt="Mes coussins">
-                    <div class="carousel-caption">
-                        <h3>Ils sont là pour vous</h3>
-                        <p>Plein de coussins biens moelleux!</p>
+
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item active">
+                            <img src="{{ asset('img/photoShoot/IMG_0726.jpg') }}" alt="Me voici!">
+                            <div class="carousel-caption">
+                                <h3>Et oui c'est moi!</h3>
+                                <p>Photo réalisée par <a class="carousel-link"
+                                                         href="https://www.facebook.com/pierredossephotography/"
+                                                         target="_blank">
+                                        Pierre Dosse</a></p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="{{ asset('img/photoShoot/IMG_0804.jpg') }}" alt="Libellule painte">
+                            <div class="carousel-caption">
+                                <h3>Mon logo en peinture!</h3>
+                                <p>Réalisé par un artiste de génie (<a class="carousel-link"
+                                                                       href="https://www.instagram.com/davidoryphore_/"
+                                                                       target="_blank">son instagram ici</a>)</p>
+                            </div>
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="{{ asset('img/photoShoot/IMG_0817.jpg') }}" alt="Mes coussins">
+                            <div class="carousel-caption">
+                                <h3>Ils sont là pour vous</h3>
+                                <p>Plein de coussins biens moelleux!</p>
+                            </div>
+                        </div>
+
                     </div>
+
+
+                    <a class="carousel-control-prev" href="#actu-carousel" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#actu-carousel" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+
                 </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('img/photoShoot/IMG_0804.jpg') }}" alt="Chicago">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{ asset('img/photoShoot/IMG_0726.jpg') }}" alt="New York">
-                </div>
+
             </div>
-
-            <!-- Left and right controls -->
-            <a class="carousel-control-prev" href="#actu-carousel" data-slide="prev">
-                <span class="carousel-control-prev-icon"></span>
-            </a>
-            <a class="carousel-control-next" href="#actu-carousel" data-slide="next">
-                <span class="carousel-control-next-icon"></span>
-            </a>
-
-
-
-
         </div>
+    </section>
 
-    </div>
-    </div>
+    <section class="section-space">
+        <div id="spacing-div"></div>
+        <div id="spacing-div"></div>
+        <h2 class="lobster-align">Une petite nouveauté: les ateliers méditation!</h2>
+        <div id="spacing-div"></div>
+
+        <p>Je vous propose dorénavant des ateliers de méditation en groupe, en cabinet ou à domicile.</p>
+        <p>N'hésitez pas à venir me contacter pour plus d'informations.</p>
+
+
     </section>
 
 

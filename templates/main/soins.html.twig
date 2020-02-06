@@ -1,0 +1,56 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Shiatsu & Co - Login{% endblock %}
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('css/style-soins.css') }}">{% endblock %}
+
+{% block body %}
+
+    <section class="section-space">
+        <div id="spacing-div"></div>
+        <h1 class="lobster-align">Le Shiatsu</h1>
+        <div id="spacing-div"></div>
+
+        <p>C’est avant tout un outil de prévention, d’entretien du corps et de nos énergies afin d’éviter la maladie par
+            l’usure. Je reçois tout public, enfants, adultes, sportifs, femmes enceintes, personnes convalescentes…
+            Possibilité de déplacement à domicile si besoin.</p>
+
+        <div id="spacing-div"></div>
+        <h2 class="lobster-align">Séance</h2>
+        <div id="spacing-div"></div>
+        <p>La séance dure 1h30, incluant un entretien, le soin, un débriefing.</p>
+
+        <div id="spacing-div"></div>
+        <h2 class="lobster-align">Tarifs</h2>
+        <div id="spacing-div"></div>
+        <p>Adultes : 60€</p>
+        <p>Moins de 18 ans: 40€</p>
+        <div id="spacing-div"></div>
+
+        <img id="img1" src="{{ asset('img/picsToShare/PhotoShootHand1.png') }}">
+        <p><small>Le shiatsu n’est en aucun cas un acte médical.</small></p>
+
+    </section>
+
+    <div class="line-separator"></div>
+
+    <section class="section-space">
+        <div id="spacing-div"></div>
+        <h1 class="lobster-align">Le Massage assis</h1>
+        <div id="spacing-div"></div>
+
+        <p>Prestations à la demande, contactez-moi pour y réfléchir ensemble 😊</p>
+        <p>Massages en entreprises, pour le bien-être des salariés.</p>
+        <p>Interventions en festivals, stages, manifestations sportives, évènements privés…</p>
+
+        <div id="spacing-div"></div>
+        <img id="img1" src="{{ asset('img/picsToShare/chaiseMassage.jpg') }}">
+        <div id="spacing-div"></div>
+        <div id="spacing-div"></div>
+
+
+    </section>
+    <div class="line-separator"></div>
+    <div id="spacing-div"></div>
+
+{% endblock %}

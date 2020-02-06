@@ -19,8 +19,9 @@ class AccountFormType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('username',TextType::class, ['label' => 'Identifiant'])
+            ->add('username',TextType::class, ['label' => 'Identifiant :'])
             ->add('plainPassword', PasswordType::class, [
+                'label' => 'Mot de Passe :',
                 // instead of being set onto the object directly,
                 // this is read and encoded in the controller
                 'mapped' => false,
@@ -36,11 +37,12 @@ class AccountFormType extends AbstractType
                     ]),
                 ],
             ])
-            ->add('email', EmailType::class, ['label' => 'Email'])
-            ->add('firstname',TextType::class, ['label' => 'Prénom'])
-            ->add('lastname',TextType::class, ['label' => 'Nom'])
-            ->add('adress',TextType::class, ['label' => 'Adresse'])
+            ->add('email', EmailType::class, ['label' => 'Email :'])
+            ->add('firstname',TextType::class, ['label' => 'Prénom :'])
+            ->add('lastname',TextType::class, ['label' => 'Nom :'])
+            ->add('adress',TextType::class, ['label' => 'Adresse :'])
             ->add('agreeTerms', CheckboxType::class, [
+                'label' => 'J\'accepte les conditions d\'utilisation',
                 'mapped' => false,
                 'constraints' => [
                     new IsTrue([

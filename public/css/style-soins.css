@@ -68,45 +68,19 @@ nav {
     margin-right: 4rem;
     text-align: center;
 }
-
-
-/*ACCUEIL / INDEX*/
-h1.index {
-    font-family: 'Lobster', cursive;
-    text-align: center;
-}
-
-h2.index {
-    font-family: 'Bree Serif', serif;
-    text-align: center;
-}
-
-/*CAROUSEL*/
-#actu-carousel {
+#img1{
+    border-radius: 1rem;
     width: 50%;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-.carousel-inner img {
-    width: 100%;
-    border-radius: 2rem;
-    /*height: 75%;*/
+.line-separator{
+
+
+    height: 0.1rem;
+    width: 80%;
+    margin-left: 10%;
+    background:#717171;
+    border-radius: 1rem;
+    border-bottom: 0.5rem solid #FFF5E6;
+
 }
-
-.carousel-caption {
-    font-weight: bold;
-    color: #FFE5E6;
-    border-radius: 2rem;
-    opacity: 0.9;
-    background: rgba(158, 158, 158, 0.3);
-}
-
-.carousel-link {
-    opacity: 0.9;
-    font-size: 120%;
-    color: #03F19C;
-}
-
-
-
-

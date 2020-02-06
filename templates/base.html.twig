@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{% block title %}Shiatsu&Co{% endblock %}</title>
-    {% block stylesheets %}{% endblock %}
+
 
     {#    JQuery#}
     <script
@@ -30,46 +30,50 @@
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    {% block stylesheets %}<link rel="stylesheet" href="{{ asset('css/style.css') }}">{% endblock %}
 
-    <link rel="icon" href="{{ asset('img/libellule.jpg') }}"/>
+{#    fontawsome link#}
+    <script src="https://kit.fontawesome.com/a920a4a76c.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="{{ asset('img/logolibellulefinal.png') }}"/>
 </head>
 
 
 <body>
 <nav class="navbar navbar-dark navbar-expand-sm">
-    <a id="brandTitle" class="navbar-brand" href="#"> Shiatsu & Co <img id="paintDragonfly"
-                                                                        src="{{ asset('img/photoShoot/IMG_0798rogne.jpg') }}"></a>
+    <a id="brandTitle" class="navbar-brand" href="{{ path('main') }}"> Shiatsu & Co <img id="paintDragonfly"
+                                                                                         src="{{ asset('img/photoShoot/IMG_0798rogne.jpg') }}"></a>
 
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon">
+    <i style="color: #803737" class="fas fa-bars"></i>
+</span>
     </button>
 
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
+    <div class="collapse navbar-collapse " id="collapsibleNavbar">
+        <ul class="navbar-nav ">
 
             <li class="nav-item dropdown">
-                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Messages</a>
+                <a href="{{ path('main') }}" class="nav-link dropdown-toggle" data-toggle="dropdown">Accueil</a>
                 <div class="dropdown-menu">
-                    <a href="#" class="dropdown-item">Inbox</a>
-                    <a href="#" class="dropdown-item">Drafts</a>
-                    <a href="#" class="dropdown-item">Sent Items</a>
+                    <a href="#" class="dropdown-item">Mes dernières actus</a>
+                    <a href="#" class="dropdown-item">Ce que je propose</a>
+                    <a href="#" class="dropdown-item">Qui suis-je?</a>
                     <div class="dropdown-divider"></div>
-                    <a href="#" class="dropdown-item">Trash</a>
+                    <a href="{{ path('main') }}" class="dropdown-item">Retour à l'accueil</a>
                 </div>
             </li>
 
 
-            <li class="nav-item"><a class="nav-link" href="#">Soins & Prestations</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Présentation</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Connexion</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ path('soins') }}">Soins & Prestations</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ path('presentation') }}">Présentation</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ path('account_login') }}">Connexion</a></li>
             <li class="nav-item"><a class="nav-link" href="{{ path('account_signup') }}">S'enregistrer</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+            <li class="nav-item"><a class="nav-link" href="{{ path('contact') }}">Contact</a></li>
         </ul>
     </div>
 </nav>
-
 
 
 {% block body %}{% endblock %}
