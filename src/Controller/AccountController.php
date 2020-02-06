@@ -13,6 +13,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;
 
+
 /**
  * @Route("/",name="account_")
  */
@@ -52,7 +53,7 @@ class AccountController extends Controller
     }
 
     /**
-     * @Route("/login", name ="login")
+     * @Route("/login", name="login")
      * @param $authenticationUtils
      * @return \Symfony\Component\HttpFoundation\Response
      */
