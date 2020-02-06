@@ -85,8 +85,8 @@
         <ul class="navbar-nav ml-auto">
 
             {% if app.user %}
-                <li class="nav-item"><a class="nav-link" href="{{ path('soins') }}">Mon Profil</a></li>
-                <li class="nav-item"><a class="nav-link" href="{{ path('soins') }}">Le coin des membres</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ path('temporary') }}">Bienvenue {{ app.user.firstname }}!</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ path('temporary') }}">Le coin des membres</a></li>
                 <li id="logout-shape" class="nav-item"><a class="nav-link" href="{{ path('logout') }}">Déconnexion</a></li>
             {% else %}
                 <li class="nav-item login-shape"><a class="nav-link" href="{{ path('account_login') }}">Connexion</a></li>

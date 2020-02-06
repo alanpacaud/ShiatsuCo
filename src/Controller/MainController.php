@@ -46,4 +46,14 @@ class MainController extends Controller
             'controller_name' => 'MainController',
         ]);
     }
+
+    /**
+     * @Route("/temporary", name="temporary")
+     */
+    public function temporary()
+    {
+        return $this->render('main/temporaryPage.html.twig', [
+            'controller_name' => 'MainController',
+        ]);
+    }
 }
