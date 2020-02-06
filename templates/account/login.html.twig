@@ -16,14 +16,7 @@
 
         <div class="container">
             <div class="d-flex justify-content-center mb-3">
-                {% if error %}
-                <div class="row">
-                    <div class="col">
-                    <div class="alert-error">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
-                    </div>
-                </div>
-                    <div id="spacing-div"></div>
-                {% endif %}
+
 
                 <form action="{{ path('account_login') }}" method="post">
                     <div class="row">
@@ -60,6 +53,16 @@
                             <button type="submit" class="btn btn-primary">Se connecter</button>
                         </div>
                     </div>
+
+
+                    {% if error %}
+                        <div class="row">
+                            <div class="col">
+                                <div class="alert-error">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+                            </div>
+                        </div>
+                        <div id="spacing-div"></div>
+                    {% endif %}
                 </form>
             </div>
         </div>

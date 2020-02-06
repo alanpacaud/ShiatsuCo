@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aed6718-6ed4-4936-87ac-0301a8c352ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/translations/security.fr.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/translation.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/translation.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/account/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,13 +125,15 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\ShiatsuCo\translations" />
+      <recent name="C:\wamp64\www\ShiatsuCo\templates\main" />
+      <recent name="C:\wamp64\www\ShiatsuCo\public\img" />
+      <recent name="C:\wamp64\www\ShiatsuCo\public\img\photoShoot" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\ShiatsuCo\public\img\photoToShare" />
       <recent name="C:\wamp64\www\ShiatsuCo\public\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\ShiatsuCo\public\img" />
-      <recent name="C:\wamp64\www\ShiatsuCo\public\img\photoShoot" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -195,5 +200,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580889969814" />
+    <state x="657" y="118" width="606" height="804" key="find.popup" timestamp="1581001880511">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="657" y="118" width="606" height="804" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581001880511" />
   </component>
 </project>
