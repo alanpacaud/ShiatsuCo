@@ -2,43 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aed6718-6ed4-4936-87ac-0301a8c352ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0685-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0726-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0735-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0739-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0754-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0762-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0790-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0792-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0794-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0796-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0798-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0798rogne-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0804-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0811-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0814-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0816-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0817-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0818-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0820-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0821-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/IMG_0823-min.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/PhotoShootHand1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/affichePontCaff.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/aquaforme.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/chaiseMassage.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/libellule.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/logolibellulefinal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/massageChaise1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/massageChaise2jpg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/photoShootHead1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/opitmized/stageShiatsuSEIVA.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/contact.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/presentation.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/presentation.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/main/soins.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/soins.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/login.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
