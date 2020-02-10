@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2aed6718-6ed4-4936-87ac-0301a8c352ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/main/temporaryPage.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/packages/security.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/style-navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/style-navigation.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/AccountFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/AccountFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/login.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/account/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/account/register.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/contact.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/contact.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/presentation.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/presentation.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/soins.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/soins.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/main/temporaryPage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/main/temporaryPage.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations/security.fr.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/translations/security.fr.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,15 +133,15 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\ShiatsuCo\public\img" />
+      <recent name="C:\wamp64\www\ShiatsuCo\public\img\photoToShare" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\ShiatsuCo\translations" />
       <recent name="C:\wamp64\www\ShiatsuCo\templates\main" />
       <recent name="C:\wamp64\www\ShiatsuCo\public\img" />
       <recent name="C:\wamp64\www\ShiatsuCo\public\img\photoShoot" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\ShiatsuCo\public\img\photoToShare" />
-      <recent name="C:\wamp64\www\ShiatsuCo\public\img" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -161,6 +170,8 @@
       <workItem from="1580718275983" duration="3985000" />
       <workItem from="1580803980093" duration="22088000" />
       <workItem from="1580889967501" duration="11950000" />
+      <workItem from="1581062385099" duration="4000" />
+      <workItem from="1581062459470" duration="9850000" />
     </task>
     <servers />
   </component>
@@ -186,19 +197,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580901770823" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1580980479317">
+    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1581085158971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580980479317" />
+    <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581085158971" />
     <state x="282" y="154" key="SettingsEditor" timestamp="1580928596795">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="282" y="154" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1580928596795" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580826467451" />
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1580889969814">
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581062462894">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580889969814" />
+    <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581062462894" />
     <state x="657" y="118" width="606" height="804" key="find.popup" timestamp="1581001880511">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

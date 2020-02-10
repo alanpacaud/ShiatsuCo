@@ -4,6 +4,7 @@
 {% block stylesheets %}
     <link rel="stylesheet" href="{{ asset('css/style-login.css') }}">
     <link rel="stylesheet" href="{{ asset('css/style-button.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style-form.css') }}">
 {% endblock %}
 
 {% block body %}
@@ -23,7 +24,7 @@
                         <div class="col">
                             <label for="username">Identifiant:</label>
                             <div class="col no-padding">
-                                <input type="text" id="username" name="_username" value="{{ last_username }}"/>
+                                <input class="input-form" type="text" id="username" name="_username" value="{{ last_username }}"/>
                             </div>
                         </div>
                     </div>
@@ -33,7 +34,7 @@
                         <div class="col">
                             <label for="password">Mot de passe:</label>
                             <div class="col no-padding">
-                                <input type="password" id="password" name="_password"/>
+                                <input class="input-form" type="password" id="password" name="_password"/>
                             </div>
                         </div>
                     </div>
@@ -58,7 +59,7 @@
                     {% if error %}
                         <div class="row">
                             <div class="col">
-                                <div class="alert-error">{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+                                <div class="alert-error">{{ error.messageKey|trans(error.messageData, 'security') }}<a id="egg" href="{{ path('egg') }}">🥚</a></div>
                             </div>
                         </div>
                         <div id="spacing-div"></div>

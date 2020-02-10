@@ -56,4 +56,13 @@ class MainController extends Controller
             'controller_name' => 'MainController',
         ]);
     }
+    /**
+     * @Route("/egg", name="egg")
+     */
+    public function egg()
+    {
+        return $this->render('main/egg.html.twig', [
+            'controller_name' => 'MainController',
+        ]);
+    }
 }

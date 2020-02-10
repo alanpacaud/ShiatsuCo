@@ -27,7 +27,7 @@ class AccountFormType extends AbstractType
                 'mapped' => false,
                 'constraints' => [
                     new NotBlank([
-                        'message' => 'Please enter a password',
+                        'message' => 'Merci d\'entrer un mot de passe',
                     ]),
                     new Length([
                         'min' => 8,
@@ -46,7 +46,7 @@ class AccountFormType extends AbstractType
                 'mapped' => false,
                 'constraints' => [
                     new IsTrue([
-                        'message' => 'You should agree to our terms.',
+                        'message' => 'Il faut accepter les conditions d\'utilisation.',
                     ]),
                 ],
             ])
