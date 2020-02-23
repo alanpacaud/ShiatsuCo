@@ -161,6 +161,7 @@
       <workItem from="1581062385099" duration="4000" />
       <workItem from="1581062459470" duration="9850000" />
       <workItem from="1581334411307" duration="1400000" />
+      <workItem from="1581966883429" duration="670000" />
     </task>
     <servers />
   </component>
@@ -190,18 +191,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="276" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580901770823" />
-    <state x="740" y="276" key="FileChooserDialogImpl" timestamp="1581346554793">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="493" y="261" key="FileChooserDialogImpl" timestamp="1581966952785">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
+    <state x="493" y="261" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1581966952785" />
     <state x="740" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1581346554793" />
     <state x="282" y="154" key="SettingsEditor" timestamp="1580928596795">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="282" y="154" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1580928596795" />
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580826467451" />
-    <state x="655" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1581334680385">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="437" y="326" key="com.intellij.ide.util.TipDialog" timestamp="1581966912107">
+      <screen x="0" y="0" width="1280" height="984" />
     </state>
+    <state x="437" y="326" key="com.intellij.ide.util.TipDialog/0.0.1280.984@0.0.1280.984" timestamp="1581966912107" />
     <state x="655" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581334680385" />
     <state x="657" y="118" width="606" height="804" key="find.popup" timestamp="1581001880511">
       <screen x="0" y="0" width="1920" height="1040" />
